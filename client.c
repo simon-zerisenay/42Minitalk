@@ -24,7 +24,7 @@ static void	signal_handler(int sig)
 	else 
 	{
 		ft_putnbr_fd(received, 1);
-		ft_putchar_fd('\n', 1);
+		ft_putchar_fd('\n', 1); 
 		ft_putstr_fd("Bits received:   ", 1);
 		ft_putnbr_fd(received * 8, 1);
 		ft_putchar_fd('\n', 1); 

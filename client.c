@@ -21,7 +21,7 @@ static void	signal_handler(int sig)
 
 	if (sig == SIGUSR1)
 		++received;
-	else
+	else 
 	{
 		ft_putnbr_fd(received, 1);
 		ft_putchar_fd('\n', 1);

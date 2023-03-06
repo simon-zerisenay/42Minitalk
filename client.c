@@ -14,7 +14,7 @@
 #include <stdlib.h>
 #include <unistd.h>   
 #include "libft/libft.h"  
-
+ 
 static void	signal_handler(int sig)
 {
 	static int	received = 0; 

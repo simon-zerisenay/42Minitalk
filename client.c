@@ -56,7 +56,7 @@ static void	sendbitbybit(int pid, char *memo)
 	{
 		kill(pid, SIGUSR1); 
 		usleep(100);
-	}
+	} 
 }
 
 int	main(int argc, char **argv)

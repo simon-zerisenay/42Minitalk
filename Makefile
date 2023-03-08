@@ -30,3 +30,4 @@ fclean: clean
 re: fclean all
 
 .PHONY: all bonus libft clean fclean re
+ 

@@ -15,7 +15,7 @@ client: client.o libft/libft.a
 	$(CC) -o $@ $< -Llibft -lft
 
 %.o: %.c
-	$(CC) -c $(CFLAGS) $?
+	$(CC) -c $(CFLAGS) $? 
 
 libft/libft.a:
 	make -C libft

@@ -1,5 +1,5 @@
 SOURCES = server.c client.c
-OBJECTS = $(SOURCES:.c=.o)
+OBJECTS = $(SOURCES:.c=.o) 
    
 CC = gcc 
 CFLAGS = -Wall -Wextra -Werror  

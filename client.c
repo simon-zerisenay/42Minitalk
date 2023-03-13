@@ -50,7 +50,7 @@ static void	sendbitbybit(int pid, char *memo)
 			i--;
 			usleep(100);
 		}
-	} 
+	}  
 	i = 8;
 	while (i--)
 	{

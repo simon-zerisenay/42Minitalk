@@ -6,7 +6,7 @@ CFLAGS = -Wall -Wextra -Werror
     
 all: server client
   
-bonus: server client  
+bonus: server client   
   
 server: server.o libft/libft.a  
 	$(CC) -o $@ $< -Llibft -lft

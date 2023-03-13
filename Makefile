@@ -5,7 +5,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Werror  
     
 all: server client
-  
+   
 bonus: server client   
   
 server: server.o libft/libft.a  

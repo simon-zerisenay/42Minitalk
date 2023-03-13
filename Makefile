@@ -9,7 +9,7 @@ all: server client
 bonus: server client   
   
 server: server.o libft/libft.a  
-	$(CC) -o $@ $< -Llibft -lft
+	$(CC) -o $@ $< -Llibft -lft 
 
 client: client.o libft/libft.a
 	$(CC) -o $@ $< -Llibft -lft 

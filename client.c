@@ -41,7 +41,7 @@ static void	sendbitbybit(int pid, char *memo)
 	{
 		i = 7;
 		a = *memo++;  
-		while (i >= 0)
+		while (i >= 0) 
 		{
 			if (a >> i & 1) 
 				kill(pid, SIGUSR2);

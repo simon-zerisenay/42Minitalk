@@ -4,7 +4,7 @@ OBJECTS = $(SOURCES:.c=.o)
 CC = gcc 
 CFLAGS = -Wall -Wextra -Werror  
     
-all: server client
+all: server client 
      
 bonus: server client   
   

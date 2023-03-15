@@ -17,7 +17,7 @@ client: client.o libft/libft.a
 %.o: %.c 
 	$(CC) -c $(CFLAGS) $? 
  
-libft/libft.a:
+libft/libft.a: 
 	make -C libft
  
 clean:

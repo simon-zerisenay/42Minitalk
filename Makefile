@@ -19,7 +19,7 @@ client: client.o libft/libft.a
  
 libft/libft.a:
 	make -C libft
-
+ 
 clean:
 	rm -f $(OBJECTS)
 	make -C libft clean

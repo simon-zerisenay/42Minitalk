@@ -13,7 +13,7 @@ server: server.o libft/libft.a
  
 client: client.o libft/libft.a
 	$(CC) -o $@ $< -Llibft -lft  
-
+ 
 %.o: %.c
 	$(CC) -c $(CFLAGS) $? 
  

@@ -1,4 +1,4 @@
-SOURCES = server.c client.c  
+SOURCES = server.c client.c   
 OBJECTS = $(SOURCES:.c=.o)  
     
 CC = gcc  

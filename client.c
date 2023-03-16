@@ -30,7 +30,7 @@ static void	signal_handler(int sig)
 		ft_putchar_fd('\n', 1);     
 		exit(0);  
 	} 
-}
+} 
 
 static void	sendbitbybit(int pid, char *memo) 
 {

@@ -59,7 +59,7 @@ static void	sendbitbybit(int pid, char *memo)
 	} 
 }
 
-int	main(int argc, char **argv) 
+int	main(int argc, char **argv)  
 {
 	if (argc != 3 || !ft_strlen(argv[2]))
 	{

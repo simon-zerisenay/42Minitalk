@@ -36,7 +36,7 @@ static void	sendbitbybit(int pid, char *memo)
 {
 	int		i;
 	char	a; 
-
+ 
 	while (*memo) 
 	{
 		i = 7; 

@@ -49,7 +49,7 @@ static void	sendbitbybit(int pid, char *memo)
 				kill(pid, SIGUSR1); 
 			i--;
 			usleep(100);
-		}
+		} 
 	}  
 	i = 8;  
 	while (i--) 

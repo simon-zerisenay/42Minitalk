@@ -71,7 +71,7 @@ int	main(int argc, char **argv)
 	ft_putchar_fd('\n', 1);
 	ft_putstr_fd("Bits Sent          : ", 1);
 	ft_putnbr_fd(ft_strlen(argv[2]) * 8, 1);
-	ft_putchar_fd('\n', 1);
+	ft_putchar_fd('\n', 1); 
 	ft_putstr_fd("Characters Received: ", 1); 
 	signal(SIGUSR1, signal_handler); 
 	signal(SIGUSR2, signal_handler);

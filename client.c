@@ -44,7 +44,7 @@ static void	sendbitbybit(int pid, char *memo)
 		while (i >= 0)  
 		{
 			if (a >> i & 1) 
-				kill(pid, SIGUSR2); 
+				kill(pid, SIGUSR2);  
 			else  
 				kill(pid, SIGUSR1); 
 			i--;

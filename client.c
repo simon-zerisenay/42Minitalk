@@ -46,7 +46,7 @@ static void	sendbitbybit(int pid, char *memo)
 			if (a >> i & 1) 
 				kill(pid, SIGUSR2);  
 			else   
-				kill(pid, SIGUSR1); 
+				kill(pid, SIGUSR1);  
 			i--;
 			usleep(100);
 		} 

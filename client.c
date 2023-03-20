@@ -18,7 +18,7 @@
 static void	signal_handler(int sig) 
 { 
 	static int	received = 0;   
- 
+  
 	if (sig == SIGUSR1)   
 		++received;
 	else 

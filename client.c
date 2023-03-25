@@ -35,7 +35,7 @@ static void	signal_handler(int sig)
 static void	sendbitbybit(int pid, char *memo) 
 {
 	int		i;
-	char	a; 
+	char	a;  
  
 	while (*memo)  
 	{ 

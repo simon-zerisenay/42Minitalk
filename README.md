@@ -34,6 +34,7 @@ This will start the server, which will display its process ID (PID) on the conso
 Replace [SERVER_PID] with the process ID of the server, which is displayed when the server starts. Replace [MESSAGE] with the message you want to send to the server. The client will send the message to the server, which will display it on the console.
 
                                                Testing
+
 The program comes with a set of automated tests to verify its correctness. To run the tests, simply run the following command:
 
 

@@ -38,6 +38,7 @@ Replace [SERVER_PID] with the process ID of the server, which is displayed when 
 The program comes with a set of automated tests to verify its correctness. To run the tests, simply run the following command:
 
                                                Copy code
+
                                                make test
 
 This will run a series of tests that check the program's behavior under different conditions, such as sending messages of varying length, sending messages from multiple clients, and handling server crashes. The tests should all pass if the program is working correctly.

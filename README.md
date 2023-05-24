@@ -10,16 +10,21 @@ To compile the program, simply clone this repository and run the Makefile:
 
  
                                              git clone https://github.com/simon-zerisenay/minitalk.git
+                               
                                              cd minitalk
+                                             
                                              make
                                              
 This will create two executable files, server and client. To run the program, start the server in one terminal window:
 
                                              bash
+                                             
                                              Copy code
+                                             
                                              ./server
 This will start the server, which will display its process ID (PID) on the console. Keep this window open while running the client in another terminal window:
 
+                                             
                                              css
                                              Copy code
                                              ./client [SERVER_PID] [MESSAGE]

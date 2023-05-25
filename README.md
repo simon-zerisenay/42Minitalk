@@ -22,7 +22,7 @@ This will create two executable files, server and client. To run the program, st
                                              Copy code
                                              
                                              ./server
-This will start the server, which will display its process ID (PID) on the console. Keep this window open while running the client in another terminal window:
+This will start the server, which will display its process ID (PID) on the console. Keep this window open while running the client in another terminal window: 
 
                                              
                                              css

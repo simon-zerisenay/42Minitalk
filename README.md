@@ -15,7 +15,7 @@ To compile the program, simply clone this repository and run the Makefile:
                                              
                                              make
                                              
-This will create two executable files, server and client. To run the program, start the server in one terminal window:
+This will create two executable files, server and client. To run the program, start the server in one terminal window: 
 
                                              bash
                                              

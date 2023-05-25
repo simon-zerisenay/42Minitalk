@@ -10,7 +10,7 @@ To compile the program, simply clone this repository and run the Makefile:
 
  
                                              git clone https://github.com/simon-zerisenay/minitalk.git
-                               
+                                
                                              cd minitalk
                                              
                                              make

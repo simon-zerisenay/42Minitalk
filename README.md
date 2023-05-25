@@ -1,5 +1,5 @@
                                                                       Minitalk
-Minitalk is a small client-server communication program written in C language. The project is part of the curriculum at 42, a coding school that emphasizes project-based learning and peer reviews.
+Minitalk is a small client-server communication program written in C language. The project is part of the curriculum at 42, a coding school that emphasizes project-based learning and peer reviews. 
 
 The goal of the project is to implement a program that allows two separate processes, a client and a server, to communicate with each other using only signals. The server listens for incoming signals and decodes them into messages sent by the client, while the client sends signals containing ASCII-encoded messages to the server.
  

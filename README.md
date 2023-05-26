@@ -1,59 +1,29 @@
-                                                                      Minitalk
-Minitalk is a small client-server communication program written in C language. The project is part of the curriculum at 42, a coding school that emphasizes project-based learning and peer reviews.  
+##42 Minitalk Project
+#Introduction
+Welcome to the 42 Minitalk project! This project is designed to showcase your understanding of interprocess communication using signals in C programming. Minitalk is a simple client-server communication system that allows the transfer of text messages between two processes using signal handling.
 
-The goal of the project is to implement a program that allows two separate processes, a client and a server, to communicate with each other using only signals. The server listens for incoming signals and decodes them into messages sent by the client, while the client sends signals containing ASCII-encoded messages to the server.
-  
-This readme file provides instructions on how to use and test the program, as well as some technical details about the implementation.   
+#Objective
+The main objective of this project is to implement a client and server program that can communicate with each other using signals. The client program will take a string message as input and send it to the server program. The server program will receive the message and display it on the standard output.
 
-                                                                   Installation and Usage
-To compile the program, simply clone this repository and run the Makefile:
+#Features
+Signal-based communication: The client and server will communicate with each other using signals. Signals provide a simple and efficient way to transmit data between processes.
+Reliable message transmission: The implementation ensures that messages are reliably transmitted from the client to the server. It handles potential signal losses and guarantees the integrity of the transmitted data.
+ASCII encoding: The messages are encoded using ASCII characters, allowing for the transmission of various text-based content.
+Bonus feature: The project includes a bonus feature that enhances the communication system. This feature involves implementing an acknowledgement mechanism to ensure that each message is received successfully by the server.
+Installation
+To use the Minitalk project, follow these steps:
 
- 
-                                             git clone https://github.com/simon-zerisenay/minitalk.git
-                                
-                                             cd minitalk
-                                             
-                                             make
-                                             
-This will create two executable files, server and client. To run the program, start the server in one terminal window: 
+Clone the repository: git clone https://github.com/your_username/42-minitalk.git
+Navigate to the project directory: cd 42-minitalk
+Compile the client and server programs: make
+Run the server program in one terminal window: ./server
+Run the client program in another terminal window: ./client [server_pid] [message], where [server_pid] is the process ID of the server and [message] is the text message to be sent.
+#Usage
+Start the server program by running ./server. It will display its process ID, which you will need for the client.
+Open a new terminal window and run the client program using the command ./client [server_pid] [message], replacing [server_pid] with the process ID of the server and [message] with the desired text message.
+The client will transmit the message to the server using signal communication.
+The server will receive the message and display it on the standard output.
+#Conclusion
+The 42 Minitalk project provides a practical and hands-on experience with interprocess communication using signals. By implementing a reliable client-server communication system, you will gain a deeper understanding of signal handling and data transmission techniques. Have fun exploring the project and don't forget to try out the bonus feature for an added challenge!
 
-                                             bash
-                                             
-                                             Copy code
-                                             
-                                             ./server
-This will start the server, which will display its process ID (PID) on the console. Keep this window open while running the client in another terminal window: 
-
-                                             
-                                             css
-                                             
-                                             Copy code
-                                             
-                                             ./client [SERVER_PID] [MESSAGE]
-                                             
-Replace [SERVER_PID] with the process ID of the server, which is displayed when the server starts. Replace [MESSAGE] with the message you want to send to the server. The client will send the message to the server, which will display it on the console.
-
-
-                                               Testing
-
-The program comes with a set of automated tests to verify its correctness. To run the tests, simply run the following command:
-
-                                               Copy code
-
-                                               make test
-
-This will run a series of tests that check the program's behavior under different conditions, such as sending messages of varying length, sending messages from multiple clients, and handling server crashes. The tests should all pass if the program is working correctly.
-
-Note that the tests require the kill command to be available on the system, as they use this command to send signals to the server and client processes.
-
-                                                 Implementation Details
-The program is implemented using the signal() function provided by the C standard library. The server sets up a signal handler function that listens for incoming signals, and the client sends signals containing ASCII-encoded messages.
-
-To encode a message, the client first converts it to a series of 0s and 1s using the ASCII binary representation. It then sends a series of signals to the server, where each signal corresponds to a single bit in the message. A SIGUSR1 signal represents a 0 bit, while a SIGUSR2 signal represents a 1 bit.
-
-The server listens for incoming signals and decodes them into messages by accumulating the bits until a full ASCII character has been received. Once a character has been received, it is printed to the console and the process repeats for the next message.
-
-The program also handles errors gracefully by using signal handlers to catch common errors, such as invalid input or failed signal transmissions.
-
-                                                        Conclusion
-Minitalk is a simple but powerful demonstration of the power of signals in inter-process communication. By using signals to send messages, the program avoids the overhead of socket-based communication and provides a lightweight and efficient way for processes to communicate with each other.
+#For more detailed information, please refer to the project's documentation and source code. Happy coding!

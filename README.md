@@ -54,6 +54,7 @@ The Minitalk project consists of two main components: the client and the server.
  <br>
    <br>
   </div>
+  <br/>
 <h2>Client</h2>
  <br>
    <br>

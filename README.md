@@ -41,9 +41,15 @@ Compile the client and server programs:
   <i>make </i>
   </br>
    <br>
-Run the server program in one terminal window: ./server
-In another terminal window, run the client program: ./client [server_pid] [message]
-Replace [server_pid] with the process ID of the server.
+Run the server program in one terminal window: 
+     <br>
+  ./server
+     <br>
+In another terminal window, run the client program:
+     <br>
+  ./client [server_pid] [message]
+   <br>
+  Replace [server_pid] with the process ID of the server.
 Replace [message] with the desired text message to be sent.
 How it Works
 The Minitalk project consists of two main components: the client and the server.

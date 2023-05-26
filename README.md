@@ -24,9 +24,17 @@ As a bonus feature, the project includes an acknowledgement mechanism to enhance
 To use the Minitalk project, follow these steps:
 
   <p>Clone the repository:<p> 
+  <br/>
                                         <i> git clone https://github.com/your_username/42-minitalk.git </i>
-Navigate to the project directory: cd 42-minitalk
-Compile the client and server programs: make
+<br/>
+  Navigate to the project directory: 
+  <br/>
+  <i> cd 42-minitalk </i>
+  <br/>
+Compile the client and server programs: 
+  <br>
+  <i>make </i>
+  </br>
 Run the server program in one terminal window: ./server
 In another terminal window, run the client program: ./client [server_pid] [message]
 Replace [server_pid] with the process ID of the server.

@@ -25,25 +25,34 @@ To use the Minitalk project, follow these steps:
 
   <p>Clone the repository:<p> 
   <br/>
+   <br>
                                           git clone https://github.com/your_username/42-minitalk.git
 <br/>
+   <br>
   Navigate to the project directory: 
   <br/>
+   <br>
   <i>             cd 42-minitalk </i>
   <br/>
+   <br>
 Compile the client and server programs: 
-  <br>
+  <br/>
+   <br>
   <i>make </i>
   </br>
+   <br>
 Run the server program in one terminal window: ./server
 In another terminal window, run the client program: ./client [server_pid] [message]
 Replace [server_pid] with the process ID of the server.
 Replace [message] with the desired text message to be sent.
 How it Works
 The Minitalk project consists of two main components: the client and the server.
-
+ <br>
+   <br>
 <h2>Client</h2>
-The client program is responsible for sending the text message to the server. It takes the process ID of the server and the message as command-line arguments. The client sends the message to the server by converting each character into its binary representation and transmitting it bit by bit using signals. It handles the signal responses from the server and keeps track of the number of bits received. Once the entire message is transmitted, the client terminates.
+ <br>
+   <br>
+  The client program is responsible for sending the text message to the server. It takes the process ID of the server and the message as command-line arguments. The client sends the message to the server by converting each character into its binary representation and transmitting it bit by bit using signals. It handles the signal responses from the server and keeps track of the number of bits received. Once the entire message is transmitted, the client terminates.
 
   <h2>Server</h2>
 The server program waits for incoming signals from the client. It sets up signal handlers for SIGUSR1 and SIGUSR2 to process the incoming signals. The server reconstructs the message by accumulating the bits received from the client and decoding them back into characters. It displays the received message on the standard output. The server continues to listen for incoming signals indefinitely.

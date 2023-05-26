@@ -1,5 +1,12 @@
 <h1> 42 Minitalk Project </h1>
 <br/>
+<p align="center">
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/simon-zerisenay/42Minitalk?color=lightblue" />
+	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/simon-zerisenay/42Minitalk?color=critical" />
+	<img alt="Code language count" src="https://img.shields.io/github/languages/count/simon-zerisenay/42Minitalk?color=yellow" />
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/simon-zerisenay/42Minitalk?color=blue" />
+	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/simon-zerisenay/42Minitalk?color=green" />
+</p>
 <h2>Introduction</h2>
 <br/>
 Welcome to the 42 Minitalk project! This project aims to demonstrate your understanding of interprocess communication using signals in C programming. Minitalk is a simple client-server communication system that enables the transmission of text messages between two processes through signal handling.

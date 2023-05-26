@@ -72,14 +72,14 @@ To illustrate the Minitalk project in action, let's consider an example run:
 Start the server program in one terminal window:
   <br/>
   <br>
-  ./server
+  <div align="center"> ./server </div>
   <br/>
   <br>
 The server process identification (PID) will be displayed on the screen.
 Open another terminal window and run the client program: 
   <br/>
   <br/>
-  ./client [server_pid] [message]
+  <div align="center"> ./client [server_pid] [message] </div>
 <br/>
   <br/>
   Replace [server_pid] with the PID of the server obtained in the previous step.

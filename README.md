@@ -87,7 +87,8 @@ Replace [message] with the desired text message to be sent.
 The client will transmit the message to the server using signal-based communication.
 The server will receive the message and display it on the standard output.
 The client program will terminate once the message transmission is complete.
-Conclusion
+  <h1> Conclusion </h1>
 The 42 Minitalk project provides an immersive learning experience in interprocess communication and signal handling within the context of C programming. By implementing a robust client-server communication system, you will gain valuable insights into signal-based communication, reliable message transmission, and ASCII encoding. Additionally, the bonus feature of an acknowledgement mechanism adds an extra layer of sophistication to the project.
-
+<br/>
 For more detailed information and to explore the source code, please refer to the project's documentation and code files. Enjoy delving into the intricacies of interprocess communication through the Minitalk project!
+<br/>

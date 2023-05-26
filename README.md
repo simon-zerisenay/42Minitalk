@@ -1,4 +1,4 @@
-##42 Minitalk Project
+<h1> ##42 Minitalk Project </h1>
 <br/>
 #Introduction
 Welcome to the 42 Minitalk project! This project is designed to showcase your understanding of interprocess communication using signals in C programming. Minitalk is a simple client-server communication system that allows the transfer of text messages between two processes using signal handling.

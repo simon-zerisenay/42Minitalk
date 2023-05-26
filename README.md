@@ -23,8 +23,7 @@ As a bonus feature, the project includes an acknowledgement mechanism to enhance
 <h3>Installation and Usage</h3>
 To use the Minitalk project, follow these steps:
 
-  <p>Clone the repository:<p> 
-  <br/>
+  <p>Clone the repository:<p>
    <br>
                                           git clone https://github.com/simon-zerisenay/42Minitalk.git
 <br/>

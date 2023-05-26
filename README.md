@@ -42,19 +42,27 @@ Replace [message] with the desired text message to be sent.
 How it Works
 The Minitalk project consists of two main components: the client and the server.
 
-Client
+<h2>Client</h2>
 The client program is responsible for sending the text message to the server. It takes the process ID of the server and the message as command-line arguments. The client sends the message to the server by converting each character into its binary representation and transmitting it bit by bit using signals. It handles the signal responses from the server and keeps track of the number of bits received. Once the entire message is transmitted, the client terminates.
 
-Server
+  <h2>Server</h2>
 The server program waits for incoming signals from the client. It sets up signal handlers for SIGUSR1 and SIGUSR2 to process the incoming signals. The server reconstructs the message by accumulating the bits received from the client and decoding them back into characters. It displays the received message on the standard output. The server continues to listen for incoming signals indefinitely.
 
-Example Run
+  <h2>Example Run</h2>
 To illustrate the Minitalk project in action, let's consider an example run:
 
-Start the server program in one terminal window: ./server
+Start the server program in one terminal window:
+  <br/>
+  ./server
+  <br/>
 The server process identification (PID) will be displayed on the screen.
-Open another terminal window and run the client program: ./client [server_pid] [message]
-Replace [server_pid] with the PID of the server obtained in the previous step.
+Open another terminal window and run the client program: 
+  <br/>
+  <br/>
+  ./client [server_pid] [message]
+<br/>
+  <br/>
+  Replace [server_pid] with the PID of the server obtained in the previous step.
 Replace [message] with the desired text message to be sent.
 The client will transmit the message to the server using signal-based communication.
 The server will receive the message and display it on the standard output.

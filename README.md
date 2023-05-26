@@ -23,7 +23,8 @@ As a bonus feature, the project includes an acknowledgement mechanism to enhance
 <h3>Installation and Usage</h3>
 To use the Minitalk project, follow these steps:
 
-  <h3>Clone the repository:<h3> <i> git clone https://github.com/your_username/42-minitalk.git </i>
+  <p>Clone the repository:<p> 
+                                        <i> git clone https://github.com/your_username/42-minitalk.git </i>
 Navigate to the project directory: cd 42-minitalk
 Compile the client and server programs: make
 Run the server program in one terminal window: ./server

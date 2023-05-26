@@ -7,6 +7,7 @@
 	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/simon-zerisenay/42Minitalk?color=blue" />
 	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/simon-zerisenay/42Minitalk?color=green" />
 </p>
+<br/>
 <h2>Introduction</h2>
 <br/>
 Welcome to the 42 Minitalk project! This project aims to demonstrate your understanding of interprocess communication using signals in C programming. Minitalk is a simple client-server communication system that enables the transmission of text messages between two processes through signal handling.

@@ -26,7 +26,7 @@ To use the Minitalk project, follow these steps:
   <p>Clone the repository:<p> 
   <br/>
    <br>
-                                          git clone https://github.com/your_username/42-minitalk.git
+                                          git clone https://github.com/simon-zerisenay/42Minitalk.git
 <br/>
    <br>
   Navigate to the project directory: 

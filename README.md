@@ -71,7 +71,6 @@ The Minitalk project consists of two main components: the client and the server.
    <br>
   <h2>Server</h2>
   <br>
-   <br>
 The server program waits for incoming signals from the client. It sets up signal handlers for SIGUSR1 and SIGUSR2 to process the incoming signals. The server reconstructs the message by accumulating the bits received from the client and decoding them back into characters. It displays the received message on the standard output. The server continues to listen for incoming signals indefinitely.
 <br>
   <h2>Example Run</h2>

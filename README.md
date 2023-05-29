@@ -50,9 +50,9 @@ Compile the client and server programs:
 Run the server program in one terminal window: 
      <br>
   ./server
-     <br>
+     <br/>
 In another terminal window, run the client program:
-     <br>
+     <br/>
   ./client [server_pid] [message]
    <br>
   Replace [server_pid] with the process ID of the server.

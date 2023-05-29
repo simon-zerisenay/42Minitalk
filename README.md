@@ -16,7 +16,7 @@ Welcome to the 42 Minitalk project! This project aims to demonstrate your unders
 The primary objective of this project is to implement a client and server program that can effectively communicate with each other using signals. The client program will take a string message as input and send it to the server program, which will receive the message and display it on the standard output.
 
 <h2>Features<h2>
-  <h3>Signal-Based Communication</h3>
+  <h3>Signal-Based Communication</h3> 
 The Minitalk project leverages signal-based communication for exchanging data between the client and server. Signals provide a lightweight and efficient mechanism for interprocess communication, making them well-suited for this task. The project demonstrates the handling of specific signals, such as SIGUSR1 and SIGUSR2, to transmit information.
  
 <h3>Reliable Message Transmission</h3>

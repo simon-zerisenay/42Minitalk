@@ -25,7 +25,7 @@ To ensure reliable message transmission, the implementation accounts for potenti
 <h3>ASCII Encoding</h3>
 The Minitalk project utilizes ASCII encoding to represent text messages. ASCII characters are widely supported and can represent various alphanumeric characters, symbols, and control characters. By using ASCII encoding, the project enables the transmission of diverse text-based content.
  
-<h3>Bonus Feature: Acknowledgement Mechanism</h3> 
+<h3>Bonus Feature: Acknowledgement Mechanism</h3>  
 As a bonus feature, the project includes an acknowledgement mechanism to enhance the communication system. After receiving each message, the server sends a signal back to the client to indicate successful reception. This mechanism provides additional reliability and allows for the implementation of error handling strategies.
 
 <h3>Installation and Usage</h3>

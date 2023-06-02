@@ -37,7 +37,7 @@ To use the Minitalk project, follow these steps:
    <br> 
   Navigate to the project directory: 
   <br/>
-   <br>  
+   <br>   
   <i>             cd 42-minitalk </i> 
   <br/>
    <br>

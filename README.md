@@ -38,7 +38,7 @@ To use the Minitalk project, follow these steps:
   Navigate to the project directory: 
   <br/>
    <br> 
-  <i>             cd 42-minitalk </i>
+  <i>             cd 42-minitalk </i> 
   <br/>
    <br>
 Compile the client and server programs: 

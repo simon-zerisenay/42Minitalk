@@ -12,7 +12,7 @@
 <br/>  
 Welcome to the 42 Minitalk project! This project aims to demonstrate your understanding of interprocess communication using signals in C programming. Minitalk is a simple client-server communication system that enables the transmission of text messages between two processes through signal handling.
 
-<h2>Objective</h2>
+<h2>Objective</h2> 
 The primary objective of this project is to implement a client and server program that can effectively communicate with each other using signals. The client program will take a string message as input and send it to the server program, which will receive the message and display it on the standard output.
 
 <h2>Features<h2>    

@@ -22,7 +22,7 @@ The Minitalk project leverages signal-based communication for exchanging data be
 <h3>Reliable Message Transmission</h3>
 To ensure reliable message transmission, the implementation accounts for potential signal losses. The client program employs a bit-by-bit approach to send each character of the message, allowing the server to reconstruct the complete message accurately. Additionally, the server acknowledges successful message reception by sending a specific signal back to the client.
 
-<h3>ASCII Encoding</h3>
+<h3>ASCII Encoding</h3> 
 The Minitalk project utilizes ASCII encoding to represent text messages. ASCII characters are widely supported and can represent various alphanumeric characters, symbols, and control characters. By using ASCII encoding, the project enables the transmission of diverse text-based content.
   
 <h3>Bonus Feature: Acknowledgement Mechanism</h3>  

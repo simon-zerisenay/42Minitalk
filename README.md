@@ -29,7 +29,7 @@ The Minitalk project utilizes ASCII encoding to represent text messages. ASCII c
 As a bonus feature, the project includes an acknowledgement mechanism to enhance the communication system. After receiving each message, the server sends a signal back to the client to indicate successful reception. This mechanism provides additional reliability and allows for the implementation of error handling strategies.
 
 <h3>Installation and Usage</h3>
-To use the Minitalk project, follow these steps:
+To use the Minitalk project, follow these steps: 
 <div align="center">
   <p>Clone the repository:<p>  
                                           git clone https://github.com/simon-zerisenay/42Minitalk.git

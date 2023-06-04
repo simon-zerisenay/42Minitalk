@@ -1,7 +1,10 @@
+<div align="center">
+	
 <h1> 42 Minitalk Project </h1>
 
 <a href="https://github.com/simon-zerisenay/42Minitalk">![42 Badge](https://github.com/mcombeau/mcombeau/blob/main/42_badges/minitalkm.png)</a>
 
+</div>
 <br/>
 <p align="center">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/simon-zerisenay/42Minitalk?color=lightblue" />
